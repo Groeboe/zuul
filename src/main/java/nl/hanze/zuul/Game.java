@@ -1,5 +1,3 @@
-package nl.hanze.zuul;
-
 /**
  *  This class is the main class of the "World of Zuul" application. 
  *  "World of Zuul" is a very simple, text based adventure game.  Users 
@@ -16,7 +14,8 @@ package nl.hanze.zuul;
  * @author  Michael Kölling and David J. Barnes
  * @version 2016.02.29
  */
-public class Game
+
+public class Game 
 {
     private Parser parser;
     private Room currentRoom;
@@ -165,6 +164,14 @@ public class Game
         }
     }
 
+    ///** Hier moet nog aan gewerkt worden.
+    // * Pick up an item which is in the room
+    // */
+    //
+    //private void pickupItem(Command command){
+    //   
+    //}
+    
     /** 
      * "Quit" was entered. Check the rest of the command to see
      * whether we really quit the game.
@@ -179,14 +186,5 @@ public class Game
         else {
             return true;  // signal that we want to quit
         }
-    }
-
-    /**
-     * Run the game.
-     * @param args Command line arguments.
-     */
-    public static void main(String[] args)
-    {
-        new Game().play();
     }
 }

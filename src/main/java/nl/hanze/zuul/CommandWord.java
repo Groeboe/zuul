@@ -1,5 +1,3 @@
-package nl.hanze.zuul;
-
 /**
  * Representations for all the valid command words for the game
  * along with a string in a particular language.
@@ -11,7 +9,8 @@ public enum CommandWord
 {
     // A value for each command word along with its
     // corresponding user interface string.
-    GO("go"), QUIT("quit"), HELP("help"), UNKNOWN("?");
+    //PICKUP toegevoegd door Gerrit de Graaff
+    GO("go"), QUIT("quit"), HELP("help"), UNKNOWN("?"), PICKUP("pick up");
     
     // The command string.
     private String commandString;

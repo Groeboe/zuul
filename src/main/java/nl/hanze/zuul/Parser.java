@@ -1,5 +1,3 @@
-package nl.hanze.zuul;
-
 import java.util.Scanner;
 
 /**

@@ -1,5 +1,3 @@
-package nl.hanze.zuul;
-
 import java.util.Set;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -90,5 +88,8 @@ public class Room
     {
         return exits.get(direction);
     }
+    
+    //Hier zou nog een methode geschreven moeten worden om items in de kamer te plaatsen en
+    //hiermee te interacteren
 }
 
